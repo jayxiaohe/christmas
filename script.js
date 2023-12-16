@@ -111,12 +111,27 @@ function animate(time) {
 function loadAudio(i) {
   document.getElementById("overlay").innerHTML =
     '<div class="text-loading">Please Wait...</div>';
-  const files = [
+  const files1 = [
     "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Simon_Panrucker/Happy_Christmas_You_Guys/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",
     "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Dott/This_Christmas/Dott_-_01_-_This_Christmas.mp3",
     "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/TRG_Banks/TRG_Banks_Christmas_Album/TRG_Banks_-_12_-_No_room_at_the_inn.mp3",
     "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Mark_Smeby/En_attendant_Nol/Mark_Smeby_-_07_-_Jingle_Bell_Swing.mp3",
   ];
+  
+  const files = [
+	"https://m801.music.126.net/20231216205418/63830e4cd05fad1eb3f02573ab1f9b9c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/27194119908/a914/581b/9c26/8ee7efc71ea74e38e333721d5b47fdf1.mp3",
+	"https://m801.music.126.net/20231216205439/f9e7a6f1d44deaa13917ece6e6747bcf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32094588962/c376/3066/1944/38c10ab6499c0d94dd7a3311f492f7ec.mp3",
+    "https://m801.music.126.net/20231216205502/3a1dedea37e2e60b30143426b7eb2679/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481676773/b8f3/8071/8bbf/0ef655aa730386cd35d1503c3d1d0ae0.mp3",
+	"https://m701.music.126.net/20231216205523/6d7e74e6c99945f4abd0e0699da707c0/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/16160625029/3114/1623/5555/5d2a62fa9bf57d85d7279c63c6aa614d.mp3",
+  ]
+  
+  const files33 = [
+  
+    "http://music.163.com/song/media/outer/url?id=2080690264.mp3",
+	"http://music.163.com/song/media/outer/url?id=2108224144.mp3",
+	"http://music.163.com/song/media/outer/url?id=1303027499.mp3",
+	"http://music.163.com/song/media/outer/url?id=1966162185.mp3",
+  ]
   const file = files[i];
 
   const loader = new THREE.AudioLoader();
