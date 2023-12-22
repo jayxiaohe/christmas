@@ -126,7 +126,7 @@ function loadAudio(i) {
   ]
   
   const files = [
-	"https://hpt-music.oss-cn-chengdu.aliyuncs.com/1inmyheart.mp3",
+	"https://hpt-music.oss-cn-chengdu.aliyuncs.com/star.wma",
 	"https://hpt-music.oss-cn-chengdu.aliyuncs.com/2notsnow.mp3",
     "https://hpt-music.oss-cn-chengdu.aliyuncs.com/3.best.mp3",
 	"https://hpt-music.oss-cn-chengdu.aliyuncs.com/4.isyou.mp3",
